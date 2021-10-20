@@ -1,0 +1,55 @@
+---
+title: <img src = 'https://github.com/Tai-Rocha/tainaweb_en/raw/main/content/project/Green_Status/featured-hex.png' width = '50%'> <br>
+author: "Tainá Rocha"
+date: "2021/10/20 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+      css: xaringan-themer.css
+      lib_dir: libs
+      nature:
+      ratio: "10:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(base_color = "#0D1C06")
+```
+
+## International Union for Conservation of Nature - IUCN
+
+.pull-left[
+Red List
+]
+
+--
+.pull-right[
+Green Status
+]
+---
+
+# Green status protocol
+
+
+---
+# Metrics 
+
+
+---
+
+# Testing the protocol
+### Faveiro de Wilson (*Dimorphandra wilsonii Rizzini*)
+
+As a presentation ninja, you certainly should not be satisfied by the "Hello World" example. You need to understand more about two things:
+
+1. The [remark.js](https://remarkjs.com) library;
+
+1. The **xaringan** package;
+
+Basically **xaringan** injected the chakra of R Markdown (minus Pandoc) into **remark.js**. The slides are rendered by remark.js in the web browser, and the Markdown source needed by remark.js is generated from R Markdown (**knitr**).
+
+---
+
+# Testing Protocol
+### An integrative approach for advancing biodiversity conservation of threatened species of the Brazilian Cerrado
